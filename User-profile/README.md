@@ -1,3 +1,8 @@
+I have built this project using React with Vite. 
+To run it, the correct command is: 
+npm i
+npm run dev
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
