@@ -1,0 +1,65 @@
+.user-form-container {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+}
+
+.form-heading {
+  color: #007bff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.map-heading {
+  color: #007bff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-form-input {
+  width: 80%; /* Reduced width */
+  padding: 12px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #007bff;
+  font-size: 18px;
+}
+
+.user-form-input:focus {
+  outline: none;
+  border-color: #0056b3;
+}
+
+.user-form-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.user-form-button {
+  width: 80%; /* Reduced width */
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-form-button:hover {
+  background-color: #0056b3;
+}
+
+.map-component {
+  width: 10%; /* Reduced width */
+}
